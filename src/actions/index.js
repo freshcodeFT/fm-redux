@@ -10,5 +10,5 @@ export const decrement = () => ({
 
 export const setStep = value => ({
   type: ACTION_TYPES.SET_STEP,
-  newStep: value,
+  newStep: Number(value),
 });
